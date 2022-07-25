@@ -1,4 +1,4 @@
-Reverse String(LeetCode)
+*Reverse String(LeetCode)
 
 class Solution {
     public void reverseString(char[] s) {  // We just need to modify char[] s. Dont need to return anything coz return type is void.
@@ -11,3 +11,4 @@ class Solution {
         }
     }
 }
+Key points-Not returning anything just making chanages in code.
