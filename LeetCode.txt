@@ -1,5 +1,4 @@
-*Reverse String(LeetCode)
-
+*(1)Reverse String(LeetCode)
 class Solution {
     public void reverseString(char[] s) {  // We just need to modify char[] s. Dont need to return anything coz return type is void.
         int left=0;
@@ -12,3 +11,24 @@ class Solution {
     }
 }
 Key points-Not returning anything just making chanages in code.
+
+
+*(2) Two Sum(LeetCode)
+class Solution {
+    public int[] twoSum(int[] nums, int target)
+    {
+        int[] arr=new int[2];
+        for(int i=0;i<nums.length-1;i++)
+        {
+            for(int j=i+1;j<nums.length;j++)
+            {
+                if(nums[i]+nums[j]==target)
+                {
+                    arr[0]=i;
+                    arr[1]=j;
+                 }
+            }
+        }
+        return arr;
+    }
+}
