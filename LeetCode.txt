@@ -1,0 +1,13 @@
+Reverse String(LeetCode)
+
+class Solution {
+    public void reverseString(char[] s) {  // We just need to modify char[] s. Dont need to return anything coz return type is void.
+        int left=0;
+        int right=s.length-1;
+        while(right>left){
+            char temp=s[left];
+            s[left++]=s[right];
+            s[right--]=temp;
+        }
+    }
+}
