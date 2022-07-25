@@ -13,7 +13,7 @@ class Solution {
 Key points-Not returning anything just making chanages in code.
 
 
-*(2) Two Sum(LeetCode)
+*(2) Two Sum(LeetCode)   //Here you will learn how to return an array.
 class Solution {
     public int[] twoSum(int[] nums, int target)
     {
