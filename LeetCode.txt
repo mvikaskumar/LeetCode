@@ -1,6 +1,7 @@
 *(1)Reverse String(LeetCode)
 class Solution {
-    public void reverseString(char[] s) {  // We just need to modify char[] s. Dont need to return anything coz return type is void.
+    public void reverseString(char[] s) 
+    {  // We just need to modify char[] s. Dont need to return anything coz return type is void.
         int left=0;
         int right=s.length-1;
         while(right>left){
@@ -12,7 +13,7 @@ class Solution {
 }
 Key points-Not returning anything just making chanages in code.
 
---------------------------------------------------------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 *(2) Two Sum(LeetCode)   //Here you will learn how to return an array.
 class Solution {
